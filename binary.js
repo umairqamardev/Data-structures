@@ -6,7 +6,7 @@ let right = arr.length - 1;
 while(left <= right){
     let mid = Math.floor((left + right) / 2);
     
-    if(arr[mid] == target){
+    if(target == arr[mid]){
         console.log("Found at index:", mid);
         break;
     } else if(target > arr[mid]){
