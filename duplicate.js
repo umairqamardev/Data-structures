@@ -7,7 +7,9 @@ for(let i = 0; i < arr.length; i++){
             flag = true;
             break;
         }
-    }if(flag == false){
+    }
+    
+    if(flag == false){
         arr1.push(arr[i]);
     }
 }
